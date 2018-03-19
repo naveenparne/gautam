@@ -578,7 +578,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .services {
   padding: 25px;
-  margin-top: -10em;
+  margin-top: 2em;
   background: #fff;
   -webkit-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 0.43);
   -moz-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 0.43);
@@ -1739,17 +1739,15 @@ h1, h2, h3, h4, h5, h6, figure {
   opacity: 0;
 }
 
-.js .animate-box:nth-child(4),
-.js .animate-box:nth-child(5),
-.js .animate-box:nth-child(6){
-  margin-top: 12em;
-}
-
 #fh5co-gallery{
   padding-top: 0;
 }
 #fh5co-trainer{
   padding-bottom: 0;
+}
+
+#fh5co-services .container {
+  margin-top: -12em;
 }
 
 /*# sourceMappingURL=style.css.map */
